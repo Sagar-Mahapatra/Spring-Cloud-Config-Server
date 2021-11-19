@@ -32,5 +32,11 @@ management:
       enabled: true
   endpoint:
     health:
-      show-details: always  
+      show-details: always
+logging:
+  file:
+    name: C:/Users/SAGAR/Desktop/ELK/order-payment-common.log
+  level:
+    com: 
+      javatechie: DEBUG
       
