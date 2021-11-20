@@ -6,12 +6,12 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: mysql20apr2021
-    url: jdbc:mysql://localhost:3306/javatechie
+    url: jdbc:mysql://localhost:3306/stock
     username: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
 resilience4j:
   circuitbreaker:
@@ -35,8 +35,9 @@ management:
       show-details: always
 logging:
   file:
-    name: C:/Users/SAGAR/Desktop/ELK/order-payment-common.log
+    name: C:/Users/SAGAR/Desktop/ELK/stock-common.log
   level:
     com: 
       javatechie: DEBUG
+      
       
