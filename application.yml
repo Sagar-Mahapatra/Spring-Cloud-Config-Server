@@ -1,8 +1,10 @@
 spring:
   jpa:
     show-sql: true
-my:
-  name: sagar
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
     
     
     
